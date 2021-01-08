@@ -1,4 +1,4 @@
-from RPi.GPIO import Button
+from gpiozero import Button
 import json
 import requests
 from time import sleep
